@@ -1,6 +1,8 @@
 # bookly_app
 
-A new Flutter project.
+#📱 About The App
+Bookly is a Flutter-based app that allows users to browse books, book details, and search for books through a clean and scalable architecture.
+The app focuses on performance, maintainability, and smooth user experience.
 
 ## Getting Started
 
