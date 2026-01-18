@@ -44,13 +44,17 @@ The app focuses on performance, maintainability, and smooth user experience.
   
 | Home & Featured | Search Interface | Book Details |
 | :-: | :-: | :-: |
-| <img src="https://github.com/user-attachments/assets/c722316b-0290-4255-81d5-3e46a55db26b" width="220" /> | <img src="https://github.com/user-attachments/assets/5b3c4a82-63d1-41c9-9118-6764782dcf8d" width="220" /> | <img src="https://github.com/user-attachments/assets/24779bf3-8728-4874-8413-16b08a6b1e0b" width="220" /> |
+| <img src="https://github.com/user-attachments/assets/24779bf3-8728-4874-8413-16b08a6b1e0b" width="220" /> | <img src="https://github.com/user-attachments/assets/c722316b-0290-4255-81d5-3e46a55db26b" width="220" /> | <img src="https://github.com/user-attachments/assets/5b3c4a82-63d1-41c9-9118-6764782dcf8d" width="220" /> |
 
-| Similar Content | Web View | Search Results |
+| Splash View | Web View | Search Results |
 | :-: | :-: | :-: |
-| <img src="https://github.com/user-attachments/assets/7e258a3b-9936-408a-8377-ea5cfaf8dbad" width="220" /> | <img src="https://github.com/user-attachments/assets/56cacdcc-8a58-40b9-9990-195e17339818" width="220" /> | <img src="https://github.com/user-attachments/assets/b6dea5e8-330a-4858-9d4d-905d45fda839" width="220" /> |
+| <img src="https://github.com/user-attachments/assets/b6dea5e8-330a-4858-9d4d-905d45fda839" width="220" /> | <img src="https://github.com/user-attachments/assets/56cacdcc-8a58-40b9-9990-195e17339818" width="220" /> | <img src="https://github.com/user-attachments/assets/7e258a3b-9936-408a-8377-ea5cfaf8dbad" width="220" /> |
 
 ## Getting Started
+1- Clone the repository
+2- Install dependencies
+   flutter pub get
+3- Run the app flutter run    
 
 This project is a starting point for a Flutter application.
 
