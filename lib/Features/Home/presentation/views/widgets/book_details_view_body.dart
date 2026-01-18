@@ -5,6 +5,7 @@ import 'package:bookly_app/Features/Home/presentation/views/widgets/custom_item_
 import 'package:bookly_app/Features/Home/presentation/views/widgets/custom_vertical_details_view_list.dart';
 import 'package:bookly_app/core/utils/styles.dart';
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class BookDetailsViewBody extends StatelessWidget {
   const BookDetailsViewBody({super.key, required this.book});
@@ -67,10 +68,10 @@ class BookDetailsViewBody extends StatelessWidget {
               ),
               GestureDetector(
                 onTap: () {
-                  // launchUrl(
-                  //   Uri.parse(book.volumeInfo!.previewLink!),
-                  //   mode: LaunchMode.externalApplication,
-                  // );
+                  launchUrl(
+                    Uri.parse(book.volumeInfo!.previewLink!),
+                    mode: LaunchMode.externalApplication,
+                  );
                 },
                 child: const CustomItemDetailsView(
                   colorContainar: Colors.red,
